@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url(/assets/fonts/static/Figtree-ExtraBold.ttf);
+    src: url(/assets/fonts/static/Figtree-SemiBold.ttf);
+    src: url(/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    }
+*{
+    margin: auto auto;
+    padding: 4px;
+    max-width: 1440px;
+    max-height: 50vh;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: var(--Yellow);
+    padding-top: 250px;
+}
+body{
+    width: 100%;
+    max-height: 50vh;
+    max-width: 375px;
+    align-items: center;
+    background-color: var(--White);
+    border-radius: 10px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+}
+
+.rectangle{
+    background-color: var(--Yellow);
+    border-radius: 10px;
+    align-items: center;
+    text-align: left;
+    padding: 5px 10px;
+    margin: 0 16.1rem 0 1rem;
+    display: block;
+    max-width: 375px;  
+    font-weight: bold;
+}
+
+.date{
+    text-align: left;
+    align-items: center;
+    max-width: 375px;
+    padding: 0 5px;
+    margin: 0.5rem 1rem;
+    
+}
+.z{
+    border-radius: 100%;
+    max-width: 375px;
+    max-height: 3vh;
+    align-items: left;
+    text-align: left;
+    display: flex;
+    margin: 0.5rem 1rem;
+}
+
+
+.image{
+    border-radius: 1rem;
+    height: 100%;
+    max-width: 375px;
+}
+
+h1{
+    font-family: 'Figtree';
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-align: left;
+    align-items: center;
+    max-width: 375px;
+    padding: 0 5px;
+    margin: 0.5rem 1rem;
+}
+
+.article{
+    color: var(--Grey);
+    text-align: left;
+    max-width: 375px;
+    padding: 0 5px 0 5px;
+    margin: 0 1rem;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+h1, .article, .date{
+padding: 0.1rem;
+}
+
+footer{
+    text-align: left;
+    margin: -2rem 3rem 0rem;
+}
+
